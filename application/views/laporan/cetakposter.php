@@ -22,8 +22,8 @@
             <h3>(Daftar Pencarian Orang)</h3>
             <hr>
             <!-- http://192.168.1.10:8000/images/1645002385profile.png -->
-            <?php if(url_exists("http://3.86.84.31/images/".$laporan["dphoto"])){ ?>
-                        <img src="http://3.86.84.31/images/<?= $laporan["dphoto"] ?>" class="img-thumbnail" height="350">
+            <?php if(url_exists("http://54.175.111.193/images/".$laporan["dphoto"])){ ?>
+                        <img src="http://54.175.111.193/images/<?= $laporan["dphoto"] ?>" class="img-thumbnail" height="350">
              <?php }else{ ?>
             <img src="<?php echo base_url() ?>assets/images/<?= $laporan["dphoto"] ?>" class="img-thumbnail" height="350">
             <?php }?>
