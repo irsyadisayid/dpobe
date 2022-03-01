@@ -67,8 +67,8 @@
 <div class="form-group row">
     <label for="name" class="col-sm-2 col-form-label">Photo </label>
     <div class="col-sm-10">
-    <?php if(url_exists("http://192.168.1.10:8000/images/".$laporan->photo)){ ?>
-                        <img src="http://192.168.1.10:8000/images/<?= $laporan->photo ?>" class="img-thumbnail" width="300px">
+    <?php if(url_exists("http://54.175.111.193/images/".$laporan->photo)){ ?>
+                        <img src="http://54.175.111.193/images/<?= $laporan->photo ?>" class="img-thumbnail" width="300px">
                     <?php }else{ ?>
                     <img src="<?php echo base_url() ?>assets/images/<?= $laporan->photo ?>" class="img-thumbnail" width="300px">
                     <?php }?>
